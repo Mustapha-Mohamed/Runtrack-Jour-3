@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-image: url(https://www.fond-ecran-hd.net/Public/uploads/2019-02-24/thumbs-1/abstraitarbrefeuillebriselunesoleilnuit.jpg);
+    background-size: cover;
+   
+}
+
+.nav {
+    background-color: yellow;
+    overflow: hidden;
+    
+  }
+  
+  .nav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  .nav a.menu {
+    background-color:purple;
+    color: white;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;   
+    padding: auto;
+    margin: auto;
+    }
+
+.image{
+    height: 60%;
+    width: 60%;
+    margin-left: 15%;
+    padding: 3%;
+}
+
+.montexte{
+    font-family: cursive;
+    font-size: 180%;
+    color: white;
+    text-align: center;
+}
+
+.video{
+    height: 350px;
+    width: 550px;
+}
+
+.fin{
+    display:inline-block;
+    color: yellow;
+    margin-left: 25%;
+   
+}
+
+.animation{
+    animation:linear marqueelike 20s infinite ;
+}
+
+
+@-webkit-keyframes marqueelike {
+    0%, 100% {margin-left:0;}
+    99.99% {margin-left:-100%;}
+}

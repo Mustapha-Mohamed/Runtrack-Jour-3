@@ -1,0 +1,26 @@
+
+
+
+body {
+color:black;
+background-image:url("https://www.10wallpaper.com/wallpaper/medium/1311/simple_blue-Abstract_HD_Wallpaper_medium.jpg");
+background-size:cover;
+margin:0;
+}
+
+.Vert{ color: #00FF25; }
+.Rouge{ color: #FF0300; }
+.violet { color: #FF00C9; }
+.orange { color: #ff7f00; }
+.Lien {text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;}
+
+#flex {
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+}
+
+
+a:hover {
+  background-color: gold;
+}

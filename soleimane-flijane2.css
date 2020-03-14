@@ -1,0 +1,30 @@
+
+
+
+body {
+color:white;
+background-image:url("https://a-static.besthdwallpaper.com/salve-de-couleur-pourpre-fond-d-ecran-3554x1999-16939_53.jpg");
+background-size:cover;
+margin:0;
+}
+
+.Violet{ color: #DDA0DD; }
+.Rouge{ color: #FF0300; 
+text-align:center;
+text-decoration: green wavy underline;
+padding:3%;
+}
+.jaune { color:  #FFFF00; }
+.Lien {text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;}
+
+#flex {
+display:flex;
+flex-direction:row;}
+
+
+
+
+
+a:hover {
+  background-color: gold;
+}
